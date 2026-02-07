@@ -22,8 +22,6 @@ export function EventCard({ event, onOpenEvent }: EventCardProps) {
           sizes="100vw"
           priority
         />
-        {/* Gradient fade into content area */}
-        <div className="absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-[#FFFBEA] to-transparent" />
       </div>
 
       {/* Content area - scrollable, padded for bottom navbar */}
