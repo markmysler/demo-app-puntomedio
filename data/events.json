@@ -1,0 +1,345 @@
+[
+  {
+    "id": "1",
+    "title": "El dólar blue superó los $1.500 y genera incertidumbre en los mercados",
+    "summary": "La cotización del dólar paralelo alcanzó un nuevo récord histórico, superando la barrera de los $1.500. Los analistas financieros señalan que la brecha cambiaria se amplía en un contexto de tensión económica y expectativas por las medidas del Banco Central. El Gobierno aseguró que se trata de una corrección temporal del mercado.",
+    "img_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&h=600&fit=crop",
+    "sources": [
+      { "news_outlet_name": "Clarín", "news_outlet_icon": "https://ui-avatars.com/api/?name=CL&background=E31E24&color=fff&size=64" },
+      { "news_outlet_name": "La Nación", "news_outlet_icon": "https://ui-avatars.com/api/?name=LN&background=1A1A2E&color=fff&size=64" },
+      { "news_outlet_name": "Infobae", "news_outlet_icon": "https://ui-avatars.com/api/?name=IB&background=FF6B00&color=fff&size=64" },
+      { "news_outlet_name": "Ámbito", "news_outlet_icon": "https://ui-avatars.com/api/?name=AM&background=003366&color=fff&size=64" },
+      { "news_outlet_name": "Página 12", "news_outlet_icon": "https://ui-avatars.com/api/?name=P12&background=CC0000&color=fff&size=64" }
+    ],
+    "narratives": [
+      {
+        "narrative_title": "Corrección del mercado",
+        "narrative_summary": "Desde el Gobierno y sectores afines sostienen que la suba del dólar blue es una corrección temporaria del mercado, producto de la especulación financiera. El ministro de Economía aseguró que los fundamentos macroeconómicos son sólidos y que no hay motivos para alarmarse. Los analistas cercanos al oficialismo remarcan que la brecha tiende a reducirse con las medidas en curso.",
+        "sources": [
+          { "news_outlet_name": "La Nación", "news_outlet_icon": "https://ui-avatars.com/api/?name=LN&background=1A1A2E&color=fff&size=64" },
+          { "news_outlet_name": "Infobae", "news_outlet_icon": "https://ui-avatars.com/api/?name=IB&background=FF6B00&color=fff&size=64" }
+        ]
+      },
+      {
+        "narrative_title": "Crisis cambiaria en puerta",
+        "narrative_summary": "Economistas opositores y analistas independientes advierten que la suba del dólar blue refleja una desconfianza creciente en el plan económico. Señalan que la emisión monetaria descontrolada y la falta de reservas en el Banco Central son las verdaderas causas de la escalada. Piden un cambio de rumbo urgente para evitar una crisis cambiaria mayor.",
+        "sources": [
+          { "news_outlet_name": "Página 12", "news_outlet_icon": "https://ui-avatars.com/api/?name=P12&background=CC0000&color=fff&size=64" },
+          { "news_outlet_name": "Clarín", "news_outlet_icon": "https://ui-avatars.com/api/?name=CL&background=E31E24&color=fff&size=64" },
+          { "news_outlet_name": "Ámbito", "news_outlet_icon": "https://ui-avatars.com/api/?name=AM&background=003366&color=fff&size=64" }
+        ]
+      },
+      {
+        "narrative_title": "Impacto en el bolsillo",
+        "narrative_summary": "Medios enfocados en consumo y economía doméstica analizan cómo la suba del dólar blue impacta directamente en los precios de alimentos, electrónica y turismo. Los comerciantes ya remarcan precios preventivamente y el poder adquisitivo de los salarios se deteriora aún más. Las familias argentinas buscan refugio en el ahorro en moneda dura.",
+        "sources": [
+          { "news_outlet_name": "Clarín", "news_outlet_icon": "https://ui-avatars.com/api/?name=CL&background=E31E24&color=fff&size=64" },
+          { "news_outlet_name": "Infobae", "news_outlet_icon": "https://ui-avatars.com/api/?name=IB&background=FF6B00&color=fff&size=64" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Messi brilló con un hat-trick en la victoria de Inter Miami",
+    "summary": "Lionel Messi anotó tres goles en la goleada de Inter Miami por 5-1 ante Charlotte FC en la MLS. El astro argentino demostró una vez más su vigencia a los 38 años, dejando a todos boquiabiertos con jugadas de otro planeta. Los hinchas argentinos celebraron en las redes sociales.",
+    "img_url": "https://images.unsplash.com/photo-1553778263-73a83bab9b0c?w=800&h=600&fit=crop",
+    "sources": [
+      { "news_outlet_name": "TyC Sports", "news_outlet_icon": "https://ui-avatars.com/api/?name=TyC&background=0066CC&color=fff&size=64" },
+      { "news_outlet_name": "Olé", "news_outlet_icon": "https://ui-avatars.com/api/?name=OL&background=FF0000&color=fff&size=64" },
+      { "news_outlet_name": "ESPN", "news_outlet_icon": "https://ui-avatars.com/api/?name=ESPN&background=CC0000&color=fff&size=64" },
+      { "news_outlet_name": "Infobae", "news_outlet_icon": "https://ui-avatars.com/api/?name=IB&background=FF6B00&color=fff&size=64" }
+    ],
+    "narratives": [
+      {
+        "narrative_title": "El mejor de todos los tiempos",
+        "narrative_summary": "Los medios deportivos destacan que Messi sigue siendo el mejor jugador del mundo sin importar la liga en la que juegue. Su hat-trick demostró una efectividad letal y una visión de juego incomparable. A los 38 años, Leo sigue rompiendo récords y dejando en claro por qué es el GOAT.",
+        "sources": [
+          { "news_outlet_name": "TyC Sports", "news_outlet_icon": "https://ui-avatars.com/api/?name=TyC&background=0066CC&color=fff&size=64" },
+          { "news_outlet_name": "Olé", "news_outlet_icon": "https://ui-avatars.com/api/?name=OL&background=FF0000&color=fff&size=64" },
+          { "news_outlet_name": "ESPN", "news_outlet_icon": "https://ui-avatars.com/api/?name=ESPN&background=CC0000&color=fff&size=64" }
+        ]
+      },
+      {
+        "narrative_title": "Nivel de la MLS en debate",
+        "narrative_summary": "Algunos analistas cuestionan si las actuaciones de Messi son tan impresionantes considerando el nivel competitivo de la MLS. Argumentan que la liga estadounidense no se compara con las europeas y que los rivales facilitan los goles. Este debate se reaviva cada vez que Messi tiene una actuación estelar.",
+        "sources": [
+          { "news_outlet_name": "Infobae", "news_outlet_icon": "https://ui-avatars.com/api/?name=IB&background=FF6B00&color=fff&size=64" },
+          { "news_outlet_name": "ESPN", "news_outlet_icon": "https://ui-avatars.com/api/?name=ESPN&background=CC0000&color=fff&size=64" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Argentina lidera la carrera por el litio en Sudamérica",
+    "summary": "El gobierno argentino anunció nuevas inversiones millonarias para la explotación de litio en las provincias del noroeste. Con reservas que representan el 20% del total mundial, Argentina busca posicionarse como el principal exportador del mineral clave para las baterías de vehículos eléctricos.",
+    "img_url": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&h=600&fit=crop",
+    "sources": [
+      { "news_outlet_name": "La Nación", "news_outlet_icon": "https://ui-avatars.com/api/?name=LN&background=1A1A2E&color=fff&size=64" },
+      { "news_outlet_name": "Télam", "news_outlet_icon": "https://ui-avatars.com/api/?name=TL&background=009933&color=fff&size=64" },
+      { "news_outlet_name": "Infobae", "news_outlet_icon": "https://ui-avatars.com/api/?name=IB&background=FF6B00&color=fff&size=64" },
+      { "news_outlet_name": "Clarín", "news_outlet_icon": "https://ui-avatars.com/api/?name=CL&background=E31E24&color=fff&size=64" }
+    ],
+    "narratives": [
+      {
+        "narrative_title": "Oportunidad estratégica",
+        "narrative_summary": "El Gobierno presenta la explotación del litio como una oportunidad histórica para el desarrollo económico del país. Las inversiones extranjeras superan los USD 5.000 millones y se proyecta la creación de miles de puestos de trabajo en las provincias del NOA. Argentina podría convertirse en una potencia energética global.",
+        "sources": [
+          { "news_outlet_name": "Télam", "news_outlet_icon": "https://ui-avatars.com/api/?name=TL&background=009933&color=fff&size=64" },
+          { "news_outlet_name": "La Nación", "news_outlet_icon": "https://ui-avatars.com/api/?name=LN&background=1A1A2E&color=fff&size=64" }
+        ]
+      },
+      {
+        "narrative_title": "Riesgos ambientales",
+        "narrative_summary": "Organizaciones ambientalistas y comunidades originarias alertan sobre el impacto devastador de la minería de litio en los salares andinos. El consumo masivo de agua en zonas desérticas amenaza los ecosistemas frágiles y las formas de vida ancestrales. Piden una moratoria hasta que se realicen estudios de impacto ambiental serios.",
+        "sources": [
+          { "news_outlet_name": "Página 12", "news_outlet_icon": "https://ui-avatars.com/api/?name=P12&background=CC0000&color=fff&size=64" },
+          { "news_outlet_name": "Infobae", "news_outlet_icon": "https://ui-avatars.com/api/?name=IB&background=FF6B00&color=fff&size=64" },
+          { "news_outlet_name": "Clarín", "news_outlet_icon": "https://ui-avatars.com/api/?name=CL&background=E31E24&color=fff&size=64" }
+        ]
+      },
+      {
+        "narrative_title": "Soberanía sobre los recursos",
+        "narrative_summary": "Sectores nacionalistas cuestionan que las ganancias del litio queden en manos de multinacionales extranjeras. Proponen la creación de una empresa estatal del litio similar a YPF para garantizar que los beneficios lleguen al pueblo argentino. El debate sobre la nacionalización de los recursos naturales vuelve al centro de la escena.",
+        "sources": [
+          { "news_outlet_name": "Página 12", "news_outlet_icon": "https://ui-avatars.com/api/?name=P12&background=CC0000&color=fff&size=64" },
+          { "news_outlet_name": "Télam", "news_outlet_icon": "https://ui-avatars.com/api/?name=TL&background=009933&color=fff&size=64" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Polémica por el uso de inteligencia artificial en escuelas argentinas",
+    "summary": "El Ministerio de Educación presentó un plan piloto para incorporar herramientas de inteligencia artificial en las aulas de secundaria. La iniciativa generó un intenso debate entre docentes, padres y especialistas sobre los beneficios y riesgos de la tecnología en la educación.",
+    "img_url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=600&fit=crop",
+    "sources": [
+      { "news_outlet_name": "Infobae", "news_outlet_icon": "https://ui-avatars.com/api/?name=IB&background=FF6B00&color=fff&size=64" },
+      { "news_outlet_name": "Clarín", "news_outlet_icon": "https://ui-avatars.com/api/?name=CL&background=E31E24&color=fff&size=64" },
+      { "news_outlet_name": "La Nación", "news_outlet_icon": "https://ui-avatars.com/api/?name=LN&background=1A1A2E&color=fff&size=64" }
+    ],
+    "narratives": [
+      {
+        "narrative_title": "Innovación educativa",
+        "narrative_summary": "Los impulsores del plan destacan que la IA puede personalizar el aprendizaje y reducir las brechas educativas. Países como Finlandia y Singapur ya implementaron programas similares con resultados positivos. Argentina no puede quedarse atrás en la revolución tecnológica educativa.",
+        "sources": [
+          { "news_outlet_name": "Infobae", "news_outlet_icon": "https://ui-avatars.com/api/?name=IB&background=FF6B00&color=fff&size=64" },
+          { "news_outlet_name": "La Nación", "news_outlet_icon": "https://ui-avatars.com/api/?name=LN&background=1A1A2E&color=fff&size=64" }
+        ]
+      },
+      {
+        "narrative_title": "Amenaza al pensamiento crítico",
+        "narrative_summary": "Docentes y pedagogos advierten que el uso indiscriminado de IA en las aulas puede atrofiar el pensamiento crítico de los estudiantes. La dependencia tecnológica preocupa especialmente en un contexto donde los chicos ya pasan demasiado tiempo frente a pantallas. Piden regulación estricta y formación docente antes de cualquier implementación.",
+        "sources": [
+          { "news_outlet_name": "Clarín", "news_outlet_icon": "https://ui-avatars.com/api/?name=CL&background=E31E24&color=fff&size=64" },
+          { "news_outlet_name": "Página 12", "news_outlet_icon": "https://ui-avatars.com/api/?name=P12&background=CC0000&color=fff&size=64" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "title": "YPF descubrió un nuevo yacimiento de gas en Vaca Muerta",
+    "summary": "YPF anunció el hallazgo de un enorme yacimiento de gas natural en la formación Vaca Muerta, Neuquén. El descubrimiento podría duplicar las reservas probadas de gas del país y convertir a Argentina en un exportador neto de energía para toda la región sudamericana.",
+    "img_url": "https://images.unsplash.com/photo-1513828583688-c52646db42da?w=800&h=600&fit=crop",
+    "sources": [
+      { "news_outlet_name": "Télam", "news_outlet_icon": "https://ui-avatars.com/api/?name=TL&background=009933&color=fff&size=64" },
+      { "news_outlet_name": "La Nación", "news_outlet_icon": "https://ui-avatars.com/api/?name=LN&background=1A1A2E&color=fff&size=64" },
+      { "news_outlet_name": "Ámbito", "news_outlet_icon": "https://ui-avatars.com/api/?name=AM&background=003366&color=fff&size=64" },
+      { "news_outlet_name": "Clarín", "news_outlet_icon": "https://ui-avatars.com/api/?name=CL&background=E31E24&color=fff&size=64" },
+      { "news_outlet_name": "Infobae", "news_outlet_icon": "https://ui-avatars.com/api/?name=IB&background=FF6B00&color=fff&size=64" }
+    ],
+    "narratives": [
+      {
+        "narrative_title": "Argentina potencia energética",
+        "narrative_summary": "El Gobierno celebra el hallazgo como un hito que posiciona a Argentina como potencia energética regional. Las exportaciones de gas podrían generar ingresos por USD 10.000 millones anuales y reducir la dependencia de importaciones. Vaca Muerta se confirma como la joya estratégica del país.",
+        "sources": [
+          { "news_outlet_name": "Télam", "news_outlet_icon": "https://ui-avatars.com/api/?name=TL&background=009933&color=fff&size=64" },
+          { "news_outlet_name": "La Nación", "news_outlet_icon": "https://ui-avatars.com/api/?name=LN&background=1A1A2E&color=fff&size=64" },
+          { "news_outlet_name": "Ámbito", "news_outlet_icon": "https://ui-avatars.com/api/?name=AM&background=003366&color=fff&size=64" }
+        ]
+      },
+      {
+        "narrative_title": "Fracking y medio ambiente",
+        "narrative_summary": "Organizaciones ecologistas recuerdan que la explotación de Vaca Muerta se basa en fracking, una técnica controversial que contamina acuíferos y genera sismos. Comunidades mapuches de la zona denuncian que no fueron consultadas y exigen respeto por sus territorios ancestrales. El costo ambiental podría superar los beneficios económicos.",
+        "sources": [
+          { "news_outlet_name": "Página 12", "news_outlet_icon": "https://ui-avatars.com/api/?name=P12&background=CC0000&color=fff&size=64" },
+          { "news_outlet_name": "Infobae", "news_outlet_icon": "https://ui-avatars.com/api/?name=IB&background=FF6B00&color=fff&size=64" }
+        ]
+      },
+      {
+        "narrative_title": "Inversión y empleo",
+        "narrative_summary": "El sector empresarial destaca que el nuevo yacimiento atraerá inversiones extranjeras masivas y generará miles de empleos directos e indirectos en Neuquén. Las empresas petroleras ya anunciaron planes de expansión y contratación. La provincia se posiciona como el nuevo polo de desarrollo industrial del país.",
+        "sources": [
+          { "news_outlet_name": "Clarín", "news_outlet_icon": "https://ui-avatars.com/api/?name=CL&background=E31E24&color=fff&size=64" },
+          { "news_outlet_name": "Ámbito", "news_outlet_icon": "https://ui-avatars.com/api/?name=AM&background=003366&color=fff&size=64" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Masiva marcha universitaria en todo el país contra los recortes",
+    "summary": "Cientos de miles de personas marcharon en las principales ciudades del país en defensa de la universidad pública y contra los recortes presupuestarios. La movilización fue convocada por los gremios docentes, centros de estudiantes y organizaciones sociales. Es la tercera marcha masiva en lo que va del año.",
+    "img_url": "https://images.unsplash.com/photo-1529390079861-591de354faf5?w=800&h=600&fit=crop",
+    "sources": [
+      { "news_outlet_name": "Página 12", "news_outlet_icon": "https://ui-avatars.com/api/?name=P12&background=CC0000&color=fff&size=64" },
+      { "news_outlet_name": "Clarín", "news_outlet_icon": "https://ui-avatars.com/api/?name=CL&background=E31E24&color=fff&size=64" },
+      { "news_outlet_name": "Infobae", "news_outlet_icon": "https://ui-avatars.com/api/?name=IB&background=FF6B00&color=fff&size=64" },
+      { "news_outlet_name": "La Nación", "news_outlet_icon": "https://ui-avatars.com/api/?name=LN&background=1A1A2E&color=fff&size=64" }
+    ],
+    "narratives": [
+      {
+        "narrative_title": "Defensa de la educación pública",
+        "narrative_summary": "Los manifestantes denuncian que el recorte presupuestario pone en riesgo el funcionamiento de las universidades nacionales. Los docentes cobran salarios por debajo de la línea de pobreza y las facultades no tienen recursos para investigación. La universidad pública es un pilar de la movilidad social argentina que no se puede abandonar.",
+        "sources": [
+          { "news_outlet_name": "Página 12", "news_outlet_icon": "https://ui-avatars.com/api/?name=P12&background=CC0000&color=fff&size=64" },
+          { "news_outlet_name": "Clarín", "news_outlet_icon": "https://ui-avatars.com/api/?name=CL&background=E31E24&color=fff&size=64" },
+          { "news_outlet_name": "Infobae", "news_outlet_icon": "https://ui-avatars.com/api/?name=IB&background=FF6B00&color=fff&size=64" }
+        ]
+      },
+      {
+        "narrative_title": "Auditoría y eficiencia",
+        "narrative_summary": "Desde el Gobierno argumentan que las universidades necesitan una auditoría profunda antes de recibir más fondos. Señalan que hay ineficiencias administrativas, duplicación de cargos y falta de transparencia en el manejo de los recursos. No se trata de recortar sino de gastar mejor.",
+        "sources": [
+          { "news_outlet_name": "La Nación", "news_outlet_icon": "https://ui-avatars.com/api/?name=LN&background=1A1A2E&color=fff&size=64" },
+          { "news_outlet_name": "Infobae", "news_outlet_icon": "https://ui-avatars.com/api/?name=IB&background=FF6B00&color=fff&size=64" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "title": "El subte porteño incorpora nuevas estaciones en la línea H",
+    "summary": "La Ciudad de Buenos Aires inauguró tres nuevas estaciones de la línea H del subte, conectando Retiro con Pompeya. La obra, que llevó más de una década de construcción, promete aliviar el tránsito en una de las zonas más congestionadas de la capital y beneficiar a miles de pasajeros diarios.",
+    "img_url": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=800&h=600&fit=crop",
+    "sources": [
+      { "news_outlet_name": "Clarín", "news_outlet_icon": "https://ui-avatars.com/api/?name=CL&background=E31E24&color=fff&size=64" },
+      { "news_outlet_name": "La Nación", "news_outlet_icon": "https://ui-avatars.com/api/?name=LN&background=1A1A2E&color=fff&size=64" },
+      { "news_outlet_name": "Infobae", "news_outlet_icon": "https://ui-avatars.com/api/?name=IB&background=FF6B00&color=fff&size=64" }
+    ],
+    "narratives": [
+      {
+        "narrative_title": "Progreso urbano",
+        "narrative_summary": "El Gobierno de la Ciudad celebra la inauguración como un logro de gestión que mejorará la calidad de vida de los porteños. Las nuevas estaciones conectan barrios históricamente postergados con el centro y reducirán los tiempos de viaje hasta en 40 minutos. Es la obra de infraestructura más importante de la década.",
+        "sources": [
+          { "news_outlet_name": "La Nación", "news_outlet_icon": "https://ui-avatars.com/api/?name=LN&background=1A1A2E&color=fff&size=64" },
+          { "news_outlet_name": "Infobae", "news_outlet_icon": "https://ui-avatars.com/api/?name=IB&background=FF6B00&color=fff&size=64" }
+        ]
+      },
+      {
+        "narrative_title": "Demoras y sobrecostos",
+        "narrative_summary": "Críticos señalan que la obra acumula más de 15 años de demoras y los costos se multiplicaron por diez respecto al presupuesto original. Los vecinos afectados por las construcciones sufrieron años de ruido, polvo y cortes de calles sin compensación. La inauguración llega tarde y cara.",
+        "sources": [
+          { "news_outlet_name": "Clarín", "news_outlet_icon": "https://ui-avatars.com/api/?name=CL&background=E31E24&color=fff&size=64" },
+          { "news_outlet_name": "Página 12", "news_outlet_icon": "https://ui-avatars.com/api/?name=P12&background=CC0000&color=fff&size=64" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "title": "Acuerdo histórico del Mercosur con la Unión Europea finalmente firmado",
+    "summary": "Después de más de 20 años de negociaciones, los bloques del Mercosur y la Unión Europea firmaron el tratado de libre comercio más grande del mundo. El acuerdo abarca el intercambio de bienes, servicios e inversiones entre ambas regiones, afectando a más de 700 millones de personas.",
+    "img_url": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=800&h=600&fit=crop",
+    "sources": [
+      { "news_outlet_name": "La Nación", "news_outlet_icon": "https://ui-avatars.com/api/?name=LN&background=1A1A2E&color=fff&size=64" },
+      { "news_outlet_name": "Télam", "news_outlet_icon": "https://ui-avatars.com/api/?name=TL&background=009933&color=fff&size=64" },
+      { "news_outlet_name": "Clarín", "news_outlet_icon": "https://ui-avatars.com/api/?name=CL&background=E31E24&color=fff&size=64" },
+      { "news_outlet_name": "Ámbito", "news_outlet_icon": "https://ui-avatars.com/api/?name=AM&background=003366&color=fff&size=64" },
+      { "news_outlet_name": "Infobae", "news_outlet_icon": "https://ui-avatars.com/api/?name=IB&background=FF6B00&color=fff&size=64" },
+      { "news_outlet_name": "Página 12", "news_outlet_icon": "https://ui-avatars.com/api/?name=P12&background=CC0000&color=fff&size=64" }
+    ],
+    "narratives": [
+      {
+        "narrative_title": "Apertura al mundo",
+        "narrative_summary": "Los defensores del acuerdo celebran que Argentina finalmente se integra al comercio global con reglas claras. Las exportaciones agropecuarias tendrán acceso preferencial al mercado europeo, beneficiando a productores y economías regionales. Es una señal de madurez institucional que atraerá inversiones.",
+        "sources": [
+          { "news_outlet_name": "La Nación", "news_outlet_icon": "https://ui-avatars.com/api/?name=LN&background=1A1A2E&color=fff&size=64" },
+          { "news_outlet_name": "Télam", "news_outlet_icon": "https://ui-avatars.com/api/?name=TL&background=009933&color=fff&size=64" },
+          { "news_outlet_name": "Ámbito", "news_outlet_icon": "https://ui-avatars.com/api/?name=AM&background=003366&color=fff&size=64" }
+        ]
+      },
+      {
+        "narrative_title": "Amenaza a la industria nacional",
+        "narrative_summary": "Sectores industriales y sindicatos advierten que la apertura comercial con Europa destruirá la industria nacional. Las PyMEs argentinas no pueden competir con los productos europeos subsidiados y miles de empleos están en riesgo. Piden salvaguardas y períodos de transición más largos para proteger el empleo local.",
+        "sources": [
+          { "news_outlet_name": "Página 12", "news_outlet_icon": "https://ui-avatars.com/api/?name=P12&background=CC0000&color=fff&size=64" },
+          { "news_outlet_name": "Clarín", "news_outlet_icon": "https://ui-avatars.com/api/?name=CL&background=E31E24&color=fff&size=64" },
+          { "news_outlet_name": "Infobae", "news_outlet_icon": "https://ui-avatars.com/api/?name=IB&background=FF6B00&color=fff&size=64" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "title": "Ola de calor extrema azota el centro del país con récords de temperatura",
+    "summary": "Una ola de calor sin precedentes elevó las temperaturas por encima de los 45°C en varias provincias del centro argentino. Córdoba, Santa Fe y Buenos Aires registraron récords históricos, provocando cortes masivos de luz, problemas de salud y pérdidas millonarias en el sector agropecuario.",
+    "img_url": "https://images.unsplash.com/photo-1504370805625-d32c54b16100?w=800&h=600&fit=crop",
+    "sources": [
+      { "news_outlet_name": "Infobae", "news_outlet_icon": "https://ui-avatars.com/api/?name=IB&background=FF6B00&color=fff&size=64" },
+      { "news_outlet_name": "Clarín", "news_outlet_icon": "https://ui-avatars.com/api/?name=CL&background=E31E24&color=fff&size=64" },
+      { "news_outlet_name": "Télam", "news_outlet_icon": "https://ui-avatars.com/api/?name=TL&background=009933&color=fff&size=64" },
+      { "news_outlet_name": "La Nación", "news_outlet_icon": "https://ui-avatars.com/api/?name=LN&background=1A1A2E&color=fff&size=64" }
+    ],
+    "narratives": [
+      {
+        "narrative_title": "Emergencia climática",
+        "narrative_summary": "Científicos del CONICET vinculan la ola de calor directamente con el cambio climático y advierten que estos eventos serán cada vez más frecuentes e intensos. Argentina necesita urgentemente políticas de adaptación y mitigación climática. La falta de acción gubernamental pone en riesgo la vida de millones de personas.",
+        "sources": [
+          { "news_outlet_name": "Página 12", "news_outlet_icon": "https://ui-avatars.com/api/?name=P12&background=CC0000&color=fff&size=64" },
+          { "news_outlet_name": "Télam", "news_outlet_icon": "https://ui-avatars.com/api/?name=TL&background=009933&color=fff&size=64" },
+          { "news_outlet_name": "Infobae", "news_outlet_icon": "https://ui-avatars.com/api/?name=IB&background=FF6B00&color=fff&size=64" }
+        ]
+      },
+      {
+        "narrative_title": "Crisis energética",
+        "narrative_summary": "Los cortes de luz masivos exponen la fragilidad del sistema energético argentino, que no recibió inversiones suficientes en generación y distribución. Las empresas distribuidoras culpan a la falta de actualización tarifaria mientras los usuarios sufren sin servicio en plena ola de calor. El Gobierno promete soluciones que tardan en llegar.",
+        "sources": [
+          { "news_outlet_name": "Clarín", "news_outlet_icon": "https://ui-avatars.com/api/?name=CL&background=E31E24&color=fff&size=64" },
+          { "news_outlet_name": "La Nación", "news_outlet_icon": "https://ui-avatars.com/api/?name=LN&background=1A1A2E&color=fff&size=64" }
+        ]
+      },
+      {
+        "narrative_title": "Impacto agropecuario",
+        "narrative_summary": "El sector agropecuario estima pérdidas de más de USD 2.000 millones por la sequía y el calor extremo. Los cultivos de soja y maíz sufrieron daños irreversibles en etapas críticas de crecimiento. Los productores piden declaración de emergencia agropecuaria y asistencia financiera urgente del Estado.",
+        "sources": [
+          { "news_outlet_name": "Clarín", "news_outlet_icon": "https://ui-avatars.com/api/?name=CL&background=E31E24&color=fff&size=64" },
+          { "news_outlet_name": "Ámbito", "news_outlet_icon": "https://ui-avatars.com/api/?name=AM&background=003366&color=fff&size=64" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "title": "Boom de startups argentinas: tres unicornios nuevos en un solo año",
+    "summary": "El ecosistema emprendedor argentino celebra la aparición de tres nuevos unicornios tecnológicos en 2026. Las empresas, dedicadas a fintech, healthtech y logística, alcanzaron valuaciones superiores a los USD 1.000 millones y consolidan a Buenos Aires como el hub tech más importante de Latinoamérica.",
+    "img_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=600&fit=crop",
+    "sources": [
+      { "news_outlet_name": "Infobae", "news_outlet_icon": "https://ui-avatars.com/api/?name=IB&background=FF6B00&color=fff&size=64" },
+      { "news_outlet_name": "La Nación", "news_outlet_icon": "https://ui-avatars.com/api/?name=LN&background=1A1A2E&color=fff&size=64" },
+      { "news_outlet_name": "Clarín", "news_outlet_icon": "https://ui-avatars.com/api/?name=CL&background=E31E24&color=fff&size=64" },
+      { "news_outlet_name": "Ámbito", "news_outlet_icon": "https://ui-avatars.com/api/?name=AM&background=003366&color=fff&size=64" }
+    ],
+    "narratives": [
+      {
+        "narrative_title": "Talento argentino al mundo",
+        "narrative_summary": "El surgimiento de tres nuevos unicornios demuestra que el talento tech argentino es de clase mundial. Los fundadores son ingenieros y emprendedores formados en universidades públicas que construyeron empresas globales desde Buenos Aires. Argentina exporta innovación y el ecosistema startup está más fuerte que nunca.",
+        "sources": [
+          { "news_outlet_name": "Infobae", "news_outlet_icon": "https://ui-avatars.com/api/?name=IB&background=FF6B00&color=fff&size=64" },
+          { "news_outlet_name": "La Nación", "news_outlet_icon": "https://ui-avatars.com/api/?name=LN&background=1A1A2E&color=fff&size=64" },
+          { "news_outlet_name": "Ámbito", "news_outlet_icon": "https://ui-avatars.com/api/?name=AM&background=003366&color=fff&size=64" }
+        ]
+      },
+      {
+        "narrative_title": "Fuga de cerebros encubierta",
+        "narrative_summary": "Analistas críticos señalan que los unicornios argentinos operan con sede legal en Delaware y la mayoría de sus ingresos no tributan en Argentina. Los empleados mejor pagados trabajan para el exterior y la riqueza generada no se queda en el país. Más que un éxito nacional, es una forma sofisticada de fuga de cerebros.",
+        "sources": [
+          { "news_outlet_name": "Página 12", "news_outlet_icon": "https://ui-avatars.com/api/?name=P12&background=CC0000&color=fff&size=64" },
+          { "news_outlet_name": "Clarín", "news_outlet_icon": "https://ui-avatars.com/api/?name=CL&background=E31E24&color=fff&size=64" }
+        ]
+      }
+    ]
+  }
+]
