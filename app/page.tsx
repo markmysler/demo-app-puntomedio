@@ -7,7 +7,8 @@ import { NewsFeed } from "@/components/news-feed"
 import { EventPage } from "@/components/event-page"
 import { BottomNavbar } from "@/components/bottom-navbar"
 import { AppLogo } from "@/components/app-logo"
-import { Search, Globe, User } from "lucide-react"
+import { SearchView } from "@/components/search-view"
+import { Globe, User } from "lucide-react"
 
 const events: NewsEvent[] = eventsData
 
@@ -56,16 +57,7 @@ export default function Page() {
         )}
 
         {activeTab === "buscar" && (
-          <div className="flex flex-col items-center justify-center h-full gap-4 px-8">
-            <div className="p-4 rounded-full bg-[#D97757]/10">
-              <Search className="h-8 w-8 text-[#D97757]" />
-            </div>
-            <h2 className="text-xl font-bold text-[#1E1E1E]">Buscar</h2>
-            <p className="text-sm text-[#1E1E1E]/50 text-center">
-              Buscá noticias, eventos y narrativas.
-              Próximamente disponible.
-            </p>
-          </div>
+          <SearchView events={events} onOpenEvent={handleOpenEvent} />
         )}
 
         {activeTab === "descubrir" && (

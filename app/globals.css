@@ -47,6 +47,18 @@
   }
 }
 
+/* Search card staggered entrance */
+@keyframes search-card-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 /* Hide scrollbar for snap scroll containers */
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
