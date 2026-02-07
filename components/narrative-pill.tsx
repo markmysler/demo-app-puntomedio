@@ -30,10 +30,17 @@ export function NarrativePill({
     >
       <span className="text-sm font-semibold">{narrative.narrative_title}</span>
       {/* Source count badge - clicking this opens the sources dialog */}
-      <button
-        type="button"
+      <span
+        role="button"
+        tabIndex={0}
         onClick={onSourcesClick}
-        className={`flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium transition-colors ${
+        onKeyDown={(e) => {
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault()
+            onSourcesClick(e as unknown as React.MouseEvent)
+          }
+        }}
+        className={`flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium transition-colors cursor-pointer ${
           isActive
             ? "bg-[#FFFBEA]/20 text-[#FFFBEA] hover:bg-[#FFFBEA]/30"
             : "bg-[#1E1E1E]/10 text-[#1E1E1E]/60 hover:bg-[#1E1E1E]/15"
@@ -53,7 +60,7 @@ export function NarrativePill({
           ))}
         </span>
         <span>{narrative.sources.length}</span>
-      </button>
+      </span>
     </button>
   )
 }
