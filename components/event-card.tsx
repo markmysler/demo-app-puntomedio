@@ -1,6 +1,6 @@
 "use client"
 
-import { Bookmark, Share2, ChevronLeft } from "lucide-react"
+import { Bookmark, Share2, ChevronRight } from "lucide-react"
 import type { NewsEvent } from "@/lib/types"
 import Image from "next/image"
 
@@ -11,9 +11,9 @@ interface EventCardProps {
 
 export function EventCard({ event, onOpenEvent }: EventCardProps) {
   return (
-    <div className="relative h-full w-full flex flex-col bg-[#1E1E1E]">
-      {/* Hero image - top portion */}
-      <div className="relative flex-1 min-h-0">
+    <div className="relative h-full w-full flex flex-col bg-[#FFFBEA]">
+      {/* Hero image - capped at 40% height */}
+      <div className="relative w-full h-[38%] shrink-0">
         <Image
           src={event.img_url || "/placeholder.svg"}
           alt={event.title}
@@ -22,16 +22,15 @@ export function EventCard({ event, onOpenEvent }: EventCardProps) {
           sizes="100vw"
           priority
         />
-        {/* Gradient overlay for text readability */}
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#1E1E1E]/80" />
+        {/* Gradient fade into content area */}
+        <div className="absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-[#FFFBEA] to-transparent" />
       </div>
 
-      {/* Content area - bottom portion */}
-      <div className="relative bg-[#FFFBEA] px-5 pb-6 pt-4 flex flex-col gap-3">
+      {/* Content area - scrollable, padded for bottom navbar */}
+      <div className="relative flex-1 min-h-0 overflow-y-auto bg-[#FFFBEA] px-5 pt-1 pb-20 flex flex-col gap-3">
         {/* Source badges row */}
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
-            {/* Source outlet icons stacked */}
             <div className="flex -space-x-2">
               {event.sources.slice(0, 3).map((source, index) => (
                 <Image
@@ -73,11 +72,11 @@ export function EventCard({ event, onOpenEvent }: EventCardProps) {
         </h2>
 
         {/* Summary */}
-        <p className="text-sm leading-relaxed text-[#1E1E1E]/75 line-clamp-4">
+        <p className="text-sm leading-relaxed text-[#1E1E1E]/75">
           {event.summary}
         </p>
 
-        {/* Swipe hint */}
+        {/* CTA to open event detail */}
         <button
           type="button"
           onClick={() => onOpenEvent(event)}
@@ -86,7 +85,7 @@ export function EventCard({ event, onOpenEvent }: EventCardProps) {
           <span className="text-xs font-semibold text-[#D97757] group-hover:underline">
             Ver narrativas
           </span>
-          <ChevronLeft className="h-3.5 w-3.5 text-[#D97757] rotate-180 transition-transform group-hover:translate-x-0.5" />
+          <ChevronRight className="h-3.5 w-3.5 text-[#D97757] transition-transform group-hover:translate-x-0.5" />
         </button>
       </div>
     </div>

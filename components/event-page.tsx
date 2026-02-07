@@ -19,7 +19,10 @@ export function EventPage({ event, onBack, isVisible }: EventPageProps) {
   const [activeNarrativeIndex, setActiveNarrativeIndex] = useState(0)
   const [dialogOpen, setDialogOpen] = useState(false)
   const [dialogNarrativeIndex, setDialogNarrativeIndex] = useState(0)
+  const [dragX, setDragX] = useState(0)
+  const [isDragging, setIsDragging] = useState(false)
   const touchStartRef = useRef<{ x: number; y: number } | null>(null)
+  const isHorizontalRef = useRef<boolean | null>(null)
 
   const activeNarrative = event.narratives[activeNarrativeIndex]
 
@@ -37,27 +40,75 @@ export function EventPage({ event, onBack, isVisible }: EventPageProps) {
       x: e.touches[0].clientX,
       y: e.touches[0].clientY,
     }
+    isHorizontalRef.current = null
+  }, [])
+
+  const handleTouchMove = useCallback((e: React.TouchEvent) => {
+    if (!touchStartRef.current) return
+    const deltaX = e.touches[0].clientX - touchStartRef.current.x
+    const deltaY = e.touches[0].clientY - touchStartRef.current.y
+
+    // Determine direction on first significant movement
+    if (isHorizontalRef.current === null && (Math.abs(deltaX) > 8 || Math.abs(deltaY) > 8)) {
+      isHorizontalRef.current = Math.abs(deltaX) > Math.abs(deltaY)
+    }
+
+    // Only track horizontal drag to the right
+    if (isHorizontalRef.current && deltaX > 0) {
+      setIsDragging(true)
+      setDragX(deltaX)
+    }
   }, [])
 
   const handleTouchEnd = useCallback(
     (e: React.TouchEvent) => {
-      if (!touchStartRef.current) return
-      const deltaX = e.changedTouches[0].clientX - touchStartRef.current.x
-      // Swipe right to go back
-      if (deltaX > 80) {
-        onBack()
+      if (!touchStartRef.current) {
+        setDragX(0)
+        setIsDragging(false)
+        return
       }
+
+      const deltaX = e.changedTouches[0].clientX - touchStartRef.current.x
+      const screenWidth = window.innerWidth
+
+      // If dragged more than 30% of screen width, dismiss
+      if (isHorizontalRef.current && deltaX > screenWidth * 0.3) {
+        // Animate out from current position
+        setDragX(screenWidth)
+        setTimeout(() => {
+          onBack()
+          setDragX(0)
+          setIsDragging(false)
+        }, 250)
+      } else {
+        // Snap back
+        setDragX(0)
+        setIsDragging(false)
+      }
+
       touchStartRef.current = null
+      isHorizontalRef.current = null
     },
     [onBack]
   )
 
+  // Compute the transform: when entering/leaving use the isVisible flag,
+  // but when the user is dragging, use dragX directly
+  const getTransform = () => {
+    if (isDragging || dragX > 0) {
+      return `translateX(${dragX}px)`
+    }
+    return isVisible ? "translateX(0)" : "translateX(100%)"
+  }
+
   return (
     <div
-      className={`fixed inset-0 z-40 bg-[#FFFBEA] flex flex-col transition-transform duration-350 ease-[cubic-bezier(0.16,1,0.3,1)] ${
-        isVisible ? "translate-x-0" : "translate-x-full"
+      className={`fixed inset-0 z-40 bg-[#FFFBEA] flex flex-col ${
+        isDragging ? "" : "transition-transform duration-[350ms] ease-[cubic-bezier(0.16,1,0.3,1)]"
       }`}
+      style={{ transform: getTransform() }}
       onTouchStart={handleTouchStart}
+      onTouchMove={handleTouchMove}
       onTouchEnd={handleTouchEnd}
     >
       {/* Header with image */}
